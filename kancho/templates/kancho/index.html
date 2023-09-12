@@ -1,0 +1,17 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'kancho/styles.css' %}">
+    <title>Document</title>
+
+</head>
+<body>
+    {% if chitlar %}
+     <h1>A Myar Gyi</h1>
+    {% else %}
+     <h1>No ma chit bar</h1>
+    {% endif %}
+</body>
+</html>
